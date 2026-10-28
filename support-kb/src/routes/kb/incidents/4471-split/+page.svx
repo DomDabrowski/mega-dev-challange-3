@@ -1,6 +1,6 @@
 ---
 layout: runbook
-title: '#4471 · three problems, not one'
+title: '#4471 · two problems, not one'
 owner: support desk
 status: known
 reviewed: 2026-10-28
@@ -14,23 +14,22 @@ signature: 'v1.eyJzdWIiOiIyOTQxIiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpY
   const signature = 'v1.eyJzdWIiOiIyOTQxIiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTMyMDE4ODcsImV4cCI6MTc5MzI4ODI4N30.lJxFYa30FUSvhEjnbFVjAsLJp9eJJvtZLeEfk9Oyaxo';
 </script>
 
-#4471 merged **412 reports** as one date bug. They hold three problems, each with its own fix.
+#4471 merged **412 reports** as one date bug. They hold two problems, each with its own fix.
 
 <Callout>
-One fix for #4471 would close 374 reports and leave 38 open.
+One fix for #4471 would close 379 reports and leave 33 open.
 </Callout>
 
 | problem | reports | ticket |
 | --- | --- | --- |
-| The shared parser reads dates month first; day-first tenants get month and day flipped | 374 | [issue 1](https://github.com/DomDabrowski/mega-dev-challange-3/issues/1) |
+| The shared parser reads dates month first; day-first tenants get month and day flipped | 379 | [issue 1](https://github.com/DomDabrowski/mega-dev-challange-3/issues/1) |
 | booking-v3 prints MM/DD/YYYY under the date field; people type what it says | 33 | [issue 2](https://github.com/DomDabrowski/mega-dev-challange-3/issues/2) |
-| Bookings land exactly one day off: likely a time-zone shift, not a flip | 5 | [issue 3](https://github.com/DomDabrowski/mega-dev-challange-3/issues/3) |
 
 ## How we told them apart
 
 Intake tags a report from the reporter's browser. That is a guess: 15 of the 33 form-hint reports were tagged `parser`. The cause depends on the tenant (its locale and booking form) and the channel, so we read it from the tenant directory.
 
-The desk's table below counts the five one-day reports under the parser. They do not flip month and day.
+Five reports read as a one-day move; the desk counts them under the parser, where they are filed.
 
 <CauseTable ticket={4471} />
 
