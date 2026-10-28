@@ -17,7 +17,7 @@ signature: 'v1.eyJzdWIiOiIyOTQxIiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpY
 #4471 merged **412 reports** as one date bug. They hold two problems, each with its own fix.
 
 <Callout>
-One fix for #4471 would close 379 reports and leave 33 open.
+#4471 closed 05 Oct. Parser: fixed (fix(dates): parse dd/mm for eu locales). Hint: won't fix, booking-v3 form retired.
 </Callout>
 
 | problem | reports | ticket |
