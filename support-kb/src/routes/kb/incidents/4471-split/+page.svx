@@ -2,7 +2,7 @@
 layout: runbook
 title: '#4471 · two problems, not one'
 owner: support desk
-status: known
+status: resolved
 reviewed: 2026-10-28
 signature: 'v1.eyJzdWIiOiIyOTQxIiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTMyMDE4ODcsImV4cCI6MTc5MzI4ODI4N30.lJxFYa30FUSvhEjnbFVjAsLJp9eJJvtZLeEfk9Oyaxo'
 ---
